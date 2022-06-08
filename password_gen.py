@@ -15,7 +15,8 @@ char = 'abcdefghijklmnopqrstuvwxyz0123456789'
 
 password = ''
 for i in range(password_length):
-  password = password + random.choice(char)
+    password = password + random.choice(char)
 
 print(password)
 
+print("Hello World")
