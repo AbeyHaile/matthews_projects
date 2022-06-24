@@ -5,6 +5,9 @@ Steps:
 4. Create file on local computer and store in folder
 5. Initialise local desktop on gitbash
 6. Configure local computer with github
+	config at root:
+			git config —-global -—unset user.name
+			git config —-global user.name “new user name”
 7. Once changes are made, add to branch (staging process)
 8. Commit changes 
 9. Push change (updated file appears on main branch on git repository)
@@ -13,6 +16,7 @@ Git commands:
 pwd - print working directory: prints the path of the current working directory, starting from the root
 cd - change directory
 git status
-git add .
-git commit -m ""
-git push -u origin main
+git add . 
+git commit -m "commit heading"
+git push -u origin main:
+	once pushed to the repo with using the above command, for any subsequent push use just 'git push'
